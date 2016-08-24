@@ -30,3 +30,11 @@ apply plugin: 'java'
 task printDependencies << {
     configurations.compile.each { println it.name }
 }
+
+repositories{
+  mavenCentral()
+}
+
+dependencies{
+  compile 'org.lucee:commons-io:2.4.0'
+}
