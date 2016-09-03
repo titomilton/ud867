@@ -1,12 +1,14 @@
-package com.udacity.gradle.flavorspecificactivity;
+package com.udacity.gradle.flavorsspecificactivity;
 
 import android.content.Context;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.udacity.gradle.flavorspecificactivity.R;
 
 
 public class MainActivity extends ActionBarActivity {
